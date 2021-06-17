@@ -189,3 +189,8 @@ toggleThemeBtn.onclick = () => {
 	toggleThemeBtn.innerText = document.body.classList.contains("dark") ? "День" : "Ночь"
 }
 
+darkTwo.onclick = () => {
+	document.body.classList.toggle("dark")
+	darkTwo.innerText = document.body.classList.contains("dark") ? "День" : "Ночь"
+}
+
